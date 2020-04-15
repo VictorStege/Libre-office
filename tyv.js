@@ -22,6 +22,7 @@ else if (felt1 == 2 && felt2 == 2 && felt3 == 2) {
 else {
   return 0
 }
+}
 function spil() {
 ok = true
 while(ok == true) {
