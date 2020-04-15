@@ -17,6 +17,30 @@ h6 {color: black;
 font-family: "Times New Roman";
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  background-color: #444;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  background-color: #111;
+}
 
 body {color: black; background-color: #C4FFCA;
 }
