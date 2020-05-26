@@ -59,9 +59,9 @@ countdown()
 gevinst = vaerdi(felt1,felt2,felt3)
 
 if(gevinst == 10) {
-  ok = false
   document.cookie = "count=0"
   Alert('Tillykke, du har vundet et lod i konkurrencen om at besøge LibreOffice!')
+  ok = false
 }
 else{
   if (getCount() > 0) {
