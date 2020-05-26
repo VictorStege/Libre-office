@@ -33,9 +33,6 @@ function getCount() {
     document.getElementById("forsoeg").innerHTML = counter
     return counter
   } else {
-    var d = new Date();
-    d.setTime(d.getTime() + (24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
     document.cookie = "count=3"
     return 3;
   }
